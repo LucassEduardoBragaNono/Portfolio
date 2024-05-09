@@ -15,6 +15,9 @@ FATECtools - Repositório de ferramentas, links para downloads, que são utiliza
 XXXXX
 YYYYY
 
+COMPETÊNCIAS
+HTML - CSS - JS - GIT
+
 SOBRE A FATEC
 FATEC JAHU 
 Endereço: R. Frei Galvão - Jardim Pedro Ometto, Jaú - SP, 17212-599
