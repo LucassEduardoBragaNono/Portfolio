@@ -1,8 +1,8 @@
 Envie o link do seu repositório do github do seu portfolio.
 Seu portfólio deverá ter:
-HTML e CSS puros
+HTML e CSS puros ✔️
 Flex ou Grid
-Imagens e Vídeos
+Imagens e Vídeos ✔️
 Animações
 Informações das suas redes profissionais: Linkedin e Github
 Informações sobre seus projetos desenvolvidos
