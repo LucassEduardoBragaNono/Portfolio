@@ -168,7 +168,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: #00FF08;
+    color: #002fff;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -176,9 +176,10 @@ section.topo-do-site .flex {
     margin: 40px 0;
 }
 
-.topo-do-site .img-topo-site img {
+.texto-animado{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    text-align: center;
 }
 
 

@@ -12,17 +12,19 @@ body {
 ul {
     display: flex;
     list-style: none;
-    justify-content: center; /* Centraliza os itens horizontalmente */
+    justify-content: center;
+    margin-top: 2.2vh;
+    gap: 80px;
 }
 
 li {
     color: #fff;
-    margin: 0 20px; /* Espaçamento entre os itens */
+    margin: 0 30px;
+    font-size: 2.2vh;
+    padding: 60px;
 }
 
-h1.nome {
-    color: #fff;
-}
+
 
 /* Estilos do vídeo */
 video {
@@ -45,6 +47,13 @@ video {
     transform: translate(-50%, -50%);
 }
 /* FIM DO VÍDEO */
+
+/* main section */
+
+main section p{
+    color: #fff;
+}
+
 
 
 
