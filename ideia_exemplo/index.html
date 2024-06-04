@@ -66,15 +66,12 @@
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
-                        <h1 class="texto-animado">Bem-vindo ao meu <span>portfólio</span></h1>
-                        <p>Olá, meu nome é Lucas Eduardo Braga Nono, tenho 18 anos, moro em Dois Córregos e sou estudante de Desenvolvimento de Software Multiplataforma.</p>
-
-                        <div class="btn-contato">
-                            <a href="#">
-                                <button>Entrar em contato</button>
+                        <img src="img/fotoportf.png" class="perfil-img" alt="Foto de perfil">
+                        <h1 class="fade-in-text">Bem-vindo ao meu portfólio</h1>
+                        <p>Meu nome é Lucas Eduardo Braga Nono, e sou um desenvolvedor de software apaixonado por criar soluções criativas e eficientes para problemas complexos. Estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades de programação. Atualmente estou cursando Desenvolvimento de Software Multiplataforma na Fatec JAHU.</p>
                             </a>
                         </div>
-                    </div><!--txt-topo-site-->
+                    </div>
 
                     <!-- <div class="img-topo-site">
                         <img src="img/imagemtesteportfolio.webp" alt="">
@@ -85,29 +82,29 @@
 
         <section class="especiliadades">
             <div class="interface">
-                <h2 class="titulo">Minhas <span>especialidades</span></h2>
+                <h2 class="titulo">Algumas especialidades</h2>
                 <div class="flex">
                     <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
+                        <i id="htmlcoricon"class="bi bi-filetype-html"></i>
                         <h3>HTML</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                        <p>Com o html consigo contruir o básico das minhas páginas web.</p>
                     </div><!--especialidades-box-->
 
                     <div class="especialidades-box">
-                        <i class="bi bi-cart"></i>
+                        <i id="csscoricon"class="bi bi-filetype-css"></i>
                         <h3>CSS</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                        <p>Não é a minha praia, mas nois desenrola né pae.</p>
                     </div><!--especialidades-box-->
 
                     <div class="especialidades-box">
-                        <i class="bi bi-wordpress"></i>
+                        <i id="gitcoricon"class="bi bi-git"></i>
                         <h3>GIT</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                        <p>Git me permite colaborar de forma eficiente em projetos de equipe, rastrear mudanças com precisão e manter um histórico confiável do código-fonte.</p>
                     </div>
                     <div class="especialidades-box">
-                        <i class="bi bi-wordpress"></i>
-                        <h3>PHP</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                        <i id="javascriptcoricon"class="bi bi-filetype-js"></i>
+                        <h3>JAVASCRIPT</h3>
+                        <p>Possuo o conhecimento básico sobre javascript, me possibilitando criar páginas interativas.</p>
                     </div><!--especialidades-box-->
                 </div><!--flex-->
             </div><!--interface-->
@@ -120,7 +117,7 @@
                         <img src="images/foto.png" alt="">
                     </div><!--img-sobre-->
 
-                    <div class="txt-sobre">
+                    <!-- <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU BRUNO RODRIGUES.</span></h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At accusantium ducimus dicta suscipit, neque cumque sunt tenetur totam delectus magnam minus ratione. Quidem sequi velit voluptatibus eos omnis ullam officiis.</p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quidem quae iusto repellendus eaque, ipsum sed voluptate explicabo voluptas, dolorum porro sequi laudantium? Obcaecati quae, dolores illo officiis a numquam.</p>
@@ -128,21 +125,21 @@
                             <a href="#"><button><i class="bi bi-instagram"></i></button></a>
                             <a href="#"><button><i class="bi bi-youtube"></i></button></a>
                             <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                        </div><!--btn-social-->
-                    </div><!--txt-sobre-->
+                        </div>
+                    </div> -->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--sobre-->
 
         <section class="portfolio">
             <div class="interface">
-                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <h2 class="titulo">Meus projetos</h2>
                 <div class="flex">
                     <div class="img-port" style="background-image: url(images/imagem.jpg);">
                         <div class="overlay">Projeto 1</div>
                     </div>
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Projeto 2</div>
+                    <div class="img-port" style="background-image: url(img/projeto2.png);">
+                        <div class="overlay">FATECtools</div>
                     </div>
                     <div class="img-port" style="background-image: url(images/imagem.jpg);">
                         <div class="overlay">Projeto 3</div>
@@ -153,7 +150,7 @@
 
         <section class="formulario">
             <div class="interface">
-                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+                <h2 class="titulo">Mandar um e-mail</h2>
 
                 <form action="">
                     <input type="text" name="" id="" placeholder="Seu nome completo:" required>
@@ -183,7 +180,7 @@
             </div><!--line-footer-->
 
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@bruno.com.br">contato@bruno.com.br</a></p>
+                <p><i id="emailiconcor"class="bi bi-envelope-fill"></i> <a href="">lucasnono1823@gmail.com</a></p>
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>

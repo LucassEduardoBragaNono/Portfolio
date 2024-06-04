@@ -18,6 +18,8 @@ body {
 
 .flex {
     display: flex;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 
@@ -26,12 +28,12 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00FF08;
+    background-color: #0652c4;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
-}
+} 
 
 h2.titulo {
     color: #fff;
@@ -45,7 +47,7 @@ h2.titulo span {
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #130252;
     transform: scale(1.05);
 }
 
@@ -70,6 +72,7 @@ header a {
 header nav.menu-desktop a:hover {
     color: #fff;
     transform: scale(1.05);
+    text-decoration: underline;
 }
 
 header nav ul {
@@ -78,7 +81,7 @@ header nav ul {
 
 header nav.menu-desktop ul li {
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 100px;
 }
 
 /* ESTILO DO MENU MOBILE */
@@ -173,17 +176,40 @@ section.topo-do-site .flex {
 
 .topo-do-site .txt-topo-site p {
     color: #fff;
-    margin: 40px 0;
+    margin: 60px 0;
+    max-width: calc(100% - 170px); 
+    line-height: 1.5;
+    word-wrap: break-word;
 }
 
-.texto-animado{
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+/* imagemfotoperfil */
+.perfil-img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; 
+}
+
+.fade-in-text {
+    font-size: 2em;
+    color: #fff;
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
+
+h1.fade-in-text{
     text-align: center;
+    margin-top: -80px;
 }
 
+    
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
 
-@keyframes flutuar {
+/* @keyframes flutuar {
     0% {
         top: 0;
     }
@@ -191,7 +217,7 @@ section.topo-do-site .flex {
     100% {
         top: 30px;
     }
-}
+} */
 
 /* ESTILO DAS ESPECIALIDADES */
 section.especiliadades {
@@ -217,7 +243,23 @@ section.especiliadades .flex {
 
 .especiliadades .especialidades-box i {
     font-size: 70px;
-    color: #00FF08;
+}
+
+
+#htmlcoricon{
+    color: #002fff;
+}
+
+#csscoricon{
+    color: red;
+}
+
+#gitcoricon{
+    color: yellow;
+}
+
+#javascriptcoricon{
+    color: orange;
 }
 
 .especiliadades .especialidades-box h3 {
@@ -260,7 +302,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00FF08;
+    background-color: #4400ff;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -282,16 +324,13 @@ section.portfolio .flex {
     width: 360px;
     height: 460px;
     background-size: cover;
-    background-position: 100% 0%;
-    transition: 8s;
+    background-position: 50% 50%;
     cursor: pointer;
     border-radius: 40px;
     position: relative;
 }
 
-.img-port:hover {
-    background-position: 100% 100%;
-}
+
 
 .overlay {
     position: absolute;
@@ -354,7 +393,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #00FF08;
+    background-color: #0652c4;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -451,6 +490,10 @@ footer .line-footer p a {
 
     .img-sobre img{
         width: 100%;
+    }
+
+    #emailiconcor{
+        color: #0652c4;
     }
 
     /* PORTFÓLIO */
