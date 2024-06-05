@@ -28,7 +28,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #0652c4;
+    background-color: #00c3ff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -54,6 +54,8 @@ form .btn-enviar input:hover {
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
+    
+    
 }
 
 header>.interface {
@@ -156,6 +158,7 @@ header nav.menu-desktop ul li {
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
     padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
 section.topo-do-site .flex {
@@ -176,11 +179,13 @@ section.topo-do-site .flex {
 
 .topo-do-site .txt-topo-site p {
     color: #fff;
-    margin: 60px 0;
-    max-width: calc(100% - 170px); 
+    margin: 60px 0; 
     line-height: 1.5;
     word-wrap: break-word;
+    text-align: center;
+    padding: 20px px;
 }
+
 
 /* imagemfotoperfil */
 .perfil-img {
@@ -199,7 +204,8 @@ section.topo-do-site .flex {
 
 h1.fade-in-text{
     text-align: center;
-    margin-top: -80px;
+    margin-top: -100px;
+    
 }
 
     
@@ -268,7 +274,7 @@ section.especiliadades .flex {
 }
 
 /* ESTILO DO SOBRE */
-section.sobre {
+/* section.sobre {
     padding: 80px 4%;
 }
 
@@ -295,14 +301,14 @@ section.sobre .flex {
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
-}
+} */
 
 .btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #4400ff;
+    background-color: #00c3ff;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -393,7 +399,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #0652c4;
+    background-color: #00c3ff;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -403,7 +409,7 @@ form .btn-enviar input {
 /* ESTILO DO RODAPÉ */
 
 footer {
-    padding: 40px 4%;
+    padding: 0px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
@@ -416,18 +422,27 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #00FF08;
+    border-top: 2px solid #ffffff;
 }
 
 footer .line-footer p i {
-    color: #00FF08;
-    font-size: 22px;
+    color: #000000;
+    font-size: 25px;
+    display: flex;
 }
 
 footer .line-footer p a {
     color: #fff;
-}
+    display: flex;
+    margin-top: 15px;
 
+}
+/* sobreafatec */
+
+h2.sobre-a-fatec{
+    color: white;
+    margin-top: 80px;
+}
 @media screen and (max-width: 1020px) {
 
     /* CLASSES GERAIS */
@@ -490,10 +505,6 @@ footer .line-footer p a {
 
     .img-sobre img{
         width: 100%;
-    }
-
-    #emailiconcor{
-        color: #0652c4;
     }
 
     /* PORTFÓLIO */

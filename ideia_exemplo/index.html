@@ -24,19 +24,18 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio-pag">Início</a></li>
+                    <li><a href="#minhas-especialidades">Especialidades</a></li>
+                    <li><a href="#sobre-mim">Sobre</a></li>
+                    <li><a href="#meus-projetos">Projetos</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contato-redes">
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
-
             <div class="btn-abrir-menu" id="btn-menu">
                 <i class="bi bi-list"></i>
             </div>
@@ -48,11 +47,11 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#inicio-pag">Início</a></li>
+                        <li><a href="#minhas-especialidades">Especialidades</a></li>
+                        <li><a href="sobre-mim">Sobre</a></li>
+                        <li><a href="#meus-projetos">Projetos</a></li>
+                        <li><a href="#contato-redes">Contato</a></li>
                     </ul>
                 </nav>
 
@@ -62,25 +61,25 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section id="sobre-mim" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
                         <img src="img/fotoportf.png" class="perfil-img" alt="Foto de perfil">
                         <h1 class="fade-in-text">Bem-vindo ao meu portfólio</h1>
+                        <h2 class="sobre-a-fatec">Sobre mim></h2>
                         <p>Meu nome é Lucas Eduardo Braga Nono, e sou um desenvolvedor de software apaixonado por criar soluções criativas e eficientes para problemas complexos. Estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades de programação. Atualmente estou cursando Desenvolvimento de Software Multiplataforma na Fatec JAHU.</p>
+                        <h2 class="sobre-a-fatec">Sobre a Fatec JAHU></h2>
+                        <p><b>FATEC-JAHU</b> é uma Instituição Pública de Ensino Superior que oferece cursos de graduação para formação de Tecnólogos, visando atender segmentos atuais e emergentes da atividade econômica. <br><br><br>Endereço: R. Frei Galvão - Jardim Pedro Ometto, Jaú - SP, 17212-599<br>Email: f020dir@cps.sp.gov.br
+                            <br>Tel: (14) 3622-8280 / 3622-8037 / 3621-9044<br>Para mais informações <a href="https://fatecjahu.edu.br" target="_blank"> clique aqui</a>.</p>
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <!-- <div class="img-topo-site">
-                        <img src="img/imagemtesteportfolio.webp" alt="">
-                    </div>img-topo-site -->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--topo-do-site-->
-
-        <section class="especiliadades">
+        <section id="minhas-especialidades"class="especiliadades">
             <div class="interface">
                 <h2 class="titulo">Algumas especialidades</h2>
                 <div class="flex">
@@ -99,12 +98,12 @@
                     <div class="especialidades-box">
                         <i id="gitcoricon"class="bi bi-git"></i>
                         <h3>GIT</h3>
-                        <p>Git me permite colaborar de forma eficiente em projetos de equipe, rastrear mudanças com precisão e manter um histórico confiável do código-fonte.</p>
+                        <p>Git me permite colaborar de forma eficiente em projetos de equipe.</p>
                     </div>
                     <div class="especialidades-box">
                         <i id="javascriptcoricon"class="bi bi-filetype-js"></i>
                         <h3>JAVASCRIPT</h3>
-                        <p>Possuo o conhecimento básico sobre javascript, me possibilitando criar páginas interativas.</p>
+                        <p>Possuo o conhecimento básico sobre javascript.</p>
                     </div><!--especialidades-box-->
                 </div><!--flex-->
             </div><!--interface-->
@@ -131,7 +130,7 @@
             </div><!--interface-->
         </section><!--sobre-->
 
-        <section class="portfolio">
+        <section id="meus-projetos" class="portfolio">
             <div class="interface">
                 <h2 class="titulo">Meus projetos</h2>
                 <div class="flex">
@@ -150,7 +149,7 @@
 
         <section class="formulario">
             <div class="interface">
-                <h2 class="titulo">Mandar um e-mail</h2>
+                <h2 class="titulo">Mandar um e-mail:</h2>
 
                 <form action="">
                     <input type="text" name="" id="" placeholder="Seu nome completo:" required>
@@ -164,23 +163,22 @@
 
     </main>
 
-    <footer>
+    <footer id="contato-redes">
         <div class="interface">
             <div class="line-footer">
                 <div class="flex">
-                    <div class="logo-footer">
-                        <img src="images/logo.png" alt="Logotipo Agência BRN">
-                    </div><!--logo-footer-->
+                
                     <div class="btn-social">
-                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/LucassEduardoBragaNono" id="gitcoricon" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/lucas-nono-44b6282b5/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        
                     </div><!--btn-social-->
+                    <p><i class="bi bi-envelope-fill"></i> <a href="mailto:lucasnono1823@gmail.com">lucasnono1823@gmail.com</a></p>
                 </div>
             </div><!--line-footer-->
 
             <div class="line-footer borda">
-                <p><i id="emailiconcor"class="bi bi-envelope-fill"></i> <a href="">lucasnono1823@gmail.com</a></p>
+                <!-- <p><i class="bi bi-envelope-fill"></i> <a href="">lucasnono1823@gmail.com</a></p> -->
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
