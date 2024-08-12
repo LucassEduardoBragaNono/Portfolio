@@ -1,3 +1,5 @@
+1 SEMESTRE: 
+
 Envie o link do seu repositório do github do seu portfolio.
 Seu portfólio deverá ter:
 HTML e CSS puros ✔️
@@ -8,3 +10,9 @@ Informações das suas redes profissionais: Linkedin e Github ✔️
 Informações sobre seus projetos desenvolvidos ✔️
 Informações de contato ✔️
 Informações sobre a Fatec ✔️
+
+2 SEMESTRE: 
+inserir;
+<div class="btn-limpar"><input type="reset" value="LIMPAR"></div>
+criar section currículo com os dados;
+Nome, Endereço, Telefone, E-mail, Site, Objetivo, Experiência Acad, '' Profissional e Extracurrículares.
