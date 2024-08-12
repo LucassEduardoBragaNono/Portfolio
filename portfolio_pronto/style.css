@@ -392,20 +392,37 @@ form textarea {
     max-height: 200px;
 }
 
-form .btn-enviar {
+/* Novo estilo para a div que contém os botões */
+form .btn-group {
+    display: flex;
+    justify-content: center; /* Opcional: para centralizar os botões */
+    gap: 10px; /* Espaçamento entre os botões */
     margin-top: 20px;
-    text-align: center;
 }
 
-form .btn-enviar input {
+form .btn-group input {
     width: 120px;
     background-color: #00c3ff;
     color: #000;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+    border: none; /* Remove bordas */
+    border-radius: 15px; /* Adiciona bordas arredondadas para combinar com os inputs */
+    padding: 10px; /* Ajuste do padding conforme necessário */
 }
 
+.b1:hover{ 
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.b2:hover{ 
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
 /* ESTILO DO RODAPÉ */
 
 footer {
